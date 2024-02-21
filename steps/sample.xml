@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JuviaTest Version="0.1b" ProjectName="Brasif - Sales Peças" CreateDate="2024-01-01 11:21:33" driver="gecko|chrome">
+    <globals>
+        <variable type="string" name="usuario" secret="true"></variable>
+        <variable type="string" name="senha" secret="true"></variable>        
+    </globals>
+    <script name="Estoque" description="Performance estoque" url="https://my360655.crm.ondemand.com" group="1">
+        <variables>
+            <variable type="string" name="ola_mundo">"Olá mundo"</variable>
+        </variables>
+        <steps>
+            <step typeAction="input" typeTag="id" value="USERNAME_FIELD-inner" input="Seidor" />
+            <step typeAction="input" typeTag="id" value="PASSWORD_FIELD-inner" input="Sdigital@@2023244" />
+            <step typeAction="click" typeTag="id" value="LOGIN_LINK"  />
+            <step typeAction="click" typeTag="id" value="__panel10" wait="30s" />
+            <step typeAction="click" typeTag="id" value="__div60" wait="10s" />
+        </steps>
+    </script>
+</JuviaTest>
